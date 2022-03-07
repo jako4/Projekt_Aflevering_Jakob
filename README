@@ -1,0 +1,8 @@
+This Script will create a backup of a directory, then zip and compress the file.
+
+You can either create these two paths on your computer. 'data' is for your files storage,
+and backup is where your backed-up data will be stored.
+C:\files\data
+C:\files\backup
+
+Or you can change the "source" and "destination" variables to fit your own setup.
