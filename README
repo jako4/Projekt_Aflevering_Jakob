@@ -8,3 +8,4 @@ C:\files\backup
 Or you can change the "source" and "destination" variables to fit your own setup.
 
 Note: Run the file called Backup_Final.py not the Backup_test.py.
+Backup_test.py contains references and is not the complete script.
