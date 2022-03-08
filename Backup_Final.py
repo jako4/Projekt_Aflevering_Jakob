@@ -39,11 +39,9 @@ while open_backup_dir.upper() != "Y" and open_backup_dir.upper() != "N":
     print("Type N or Y")
     open_backup_dir = input("Do you want to open the main backup folder Y/N: ")
 
-
 class backup_done:
     def message():
         print("Backup script finished")
-
 
 if open_backup_dir.upper() == "Y":
     os.startfile('C:\\files\\backup')
