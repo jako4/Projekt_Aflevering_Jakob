@@ -1,6 +1,6 @@
 This Script will create a backup of a directory, then zip and compress the file.
 
-You can either create these two paths on your computer. 'data' is for your files storage,
+You can either create these two paths on your computer. 'data' is for your file storage,
 and backup is where your backed-up data will be stored.
 C:\files\data
 C:\files\backup
@@ -8,4 +8,4 @@ C:\files\backup
 Or you can change the "source" and "destination" variables to fit your own setup.
 
 Note: Run the file called Backup_Final.py not the Backup_test.py.
-Backup_test.py contains references and is not the complete script.
+Backup_test.py contains references for creating of the script and is not the complete script.
