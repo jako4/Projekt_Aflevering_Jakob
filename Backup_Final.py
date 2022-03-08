@@ -1,9 +1,9 @@
-import datetime
-import shutil
-import os
-import zipfile
+import datetime  # date and time
+import shutil  # copy of files
+import os  # status on files, go to a path
+import zipfile  # zip and compress a file
 
-# Todays date and time
+# Today's date and time
 todays_date = datetime.datetime.now()
 format_date = todays_date.strftime("_%d_%m_%Y_%H%M%S")
 
@@ -27,7 +27,7 @@ with zipfile.ZipFile(new_directory + ".zip", 'w', zipfile.ZIP_DEFLATED) as newzi
 
 # Deletes the original backup folder
 os.chdir('C:\\files\\backup')
-delete_folder = "Backup_07_03_2022_214506"
+delete_folder = new_directory
 try:
     shutil.rmtree(delete_folder)
 except OSError as e:
